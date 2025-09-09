@@ -38,7 +38,6 @@ const Project = ({ isDarkMode }) => {
         A selection of projects I’ve built using modern web technologies.
       </motion.p>
 
-      {/* Projects List */}
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -48,9 +47,9 @@ const Project = ({ isDarkMode }) => {
         {workData.map((project, index) => (
           <motion.div
             key={index}
-            className="flex flex-col md:flex-row border border-gray-300 dark:border-gray-400 bg-white dark:bg-black shadow-xl rounded-xl overflow-hidden cursor-pointer hover:-translate-y-1  duration-500"
+            className="flex flex-col md:flex-row border border-gray-400 dark:border-gray-400 bg-white dark:bg-black shadow-xl rounded-xl
+            px-5 py-5 overflow-hidden cursor-pointer hover:-translate-y-1 duration-500"
           >
-            {/* Project Image */}
             <motion.div
               className="md:w-1/3 w-full h-52 md:h-auto overflow-hidden"
               whileHover={{ scale: 1.05 }}
@@ -65,7 +64,6 @@ const Project = ({ isDarkMode }) => {
               />
             </motion.div>
 
-            {/* Project Content */}
             <div className="md:w-2/3 w-full p-6 flex flex-col gap-4">
               <h2 className="font-bold text-xl text-gray-800 dark:text-gray-100">
                 {project.title}
@@ -74,7 +72,6 @@ const Project = ({ isDarkMode }) => {
                 {project.description}
               </p>
 
-              {/* Tools Section */}
               <div className="flex flex-wrap gap-2 mt-2">
                 {project.tools?.map((tool, i) => (
                   <div
@@ -93,7 +90,6 @@ const Project = ({ isDarkMode }) => {
                 ))}
               </div>
 
-              {/* Links Section - Buttons Centered */}
               <div className="flex justify-center gap-4 mt-4 flex-wrap">
                 {project.domain && (
                   <motion.a

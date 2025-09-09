@@ -32,13 +32,13 @@ const About = ({ isDarkMode }) => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
-        className="flex w-full flex-col lg:flex-row items-center gap-20 my-20"
+        className="flex w-full flex-col lg:flex-row items-center gap-10 my-5"
       >
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6 }}
-          className="w-64 sm-w-80 rounded-3xl max-w-none"
+          className="w-64 sm:w-80 rounded-3xl max-w-none lg:-mt-20"
         >
           <Image
             src={assets.user_image}

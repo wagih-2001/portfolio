@@ -10,7 +10,7 @@ module.exports = {
       colors: {
         lightHover: '#f9f4ff',
         darkHover: '#2a004a',
-        darkTheme: '#11001F'
+        darkTheme: '#000000'
       },
       fontFamily: {
         Outfit: ['Outfit', 'sans-serif'],

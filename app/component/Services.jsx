@@ -12,7 +12,6 @@ const Services = () => {
       id="service"
       className="w-full px-[12%] py-10 scroll-mt-20"
     >
-      {/* Title Section */}
       <motion.h4
         initial={{ y: -20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
@@ -38,7 +37,6 @@ const Services = () => {
         I am Frontend developer
       </motion.p>
 
-      {/* Services Grid */}
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

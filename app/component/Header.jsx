@@ -34,7 +34,6 @@ const Header = () => {
         </motion.div>
       </div>
 
-      {/* Greeting */}
       <motion.h3
         className="flex items-center gap-2 text-xl md:text-2xl font-Ovo justify-center"
         initial="hidden"
@@ -50,7 +49,6 @@ const Header = () => {
         <Image src={assets.hand_icon} alt="Hand" className="w-6 h-6" />
       </motion.h3>
 
-      {/* Main Title */}
       <motion.h1
         initial={{ y: -30, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
@@ -60,7 +58,6 @@ const Header = () => {
         Front-End Developer <br /> React <span className="font-mono">&</span> Next.js
       </motion.h1>
 
-      {/* Description */}
       <motion.p
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -72,7 +69,6 @@ const Header = () => {
         modern, responsive, and interactive web applications.
       </motion.p>
 
-      {/* Buttons */}
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
         <motion.a
           initial={{ y: 30, opacity: 0 }}

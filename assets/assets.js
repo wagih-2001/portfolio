@@ -1,4 +1,3 @@
-// === New Icons ===
 import clerk from './clerk.png';
 import cssIcon from './css.png';
 import htmlIcon from './html.png';
@@ -11,8 +10,7 @@ import stripeIcon from './stripe.png';
 import tailwindIcon from './tailwind.png';
 import typescriptIcon from './typescript.png';
 import vercelIcon from './vercel.png';
-
-// === Old Icons ===
+import FramerMotion from './FramerMotion.png';
 import user_image from './user-image.png';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
@@ -21,10 +19,8 @@ import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
 import vscode from './vscode.png';
-import firebase from './firebase.png';
 import figma from './figma.png';
 import git from './git.png';
-import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
 import logo_dark from './logo_dark.png';
@@ -51,9 +47,7 @@ import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 
-// === Assets Export ===
 export const assets = {
-  // New Icons
   clerk,
   cssIcon,
   htmlIcon,
@@ -66,7 +60,7 @@ export const assets = {
   tailwindIcon,
   typescriptIcon,
   vercelIcon,
-  // Old Icons
+  FramerMotion,
   user_image,
   code_icon,
   code_icon_dark,
@@ -75,10 +69,8 @@ export const assets = {
   project_icon,
   project_icon_dark,
   vscode,
-  firebase,
   figma,
   git,
-  mongodb,
   right_arrow_white,
   logo,
   logo_dark,
@@ -106,12 +98,11 @@ export const assets = {
   right_arrow_bold_dark
 };
 
-// === Work Data Updated with Real Icons ===
 export const workData = [
   {
-    title: 'Learnfiy – Online Learning Platform',
+    title: 'Online Learning Platform',
     description:
-      'Full-Stack learning platform built with Next.js, Strapi, Clerk Auth, and Tailwind CSS.',
+      'Learnfiy – Full-Stack learning platform built with Next.js, Strapi, Clerk Auth, and Tailwind CSS.',
     bgImage: '/work-1.png',
     tools: [
       { name: 'Next.js', icon: assets.nextIcon },
@@ -124,9 +115,9 @@ export const workData = [
     github: 'https://github.com/wagih-2001/Learnfiy'
   },
   {
-    title: 'Prayer-Time – Islamic Prayer Times App',
+    title: 'Islamic Prayer Times App',
     description:
-      'Responsive app displaying daily prayer times using Aladhan API.',
+      'Prayer-Time – Responsive app displaying daily prayer times using Aladhan API.',
     bgImage: '/work-2.png',
     tools: [
       { name: 'React.js', icon: assets.reactIcon },
@@ -137,9 +128,9 @@ export const workData = [
     github: 'https://github.com/wagih-2001/prayer-time'
   },
   {
-    title: 'E-commerce Topico – Online Store',
+    title: 'Online Store',
     description:
-      'Modern e-commerce website with responsive design showcasing products & categories.',
+      'E-commerce Topico – Modern e-commerce website with responsive design showcasing products & categories.',
     bgImage: '/work-3.png',
     tools: [
       { name: 'HTML5', icon: assets.htmlIcon },
@@ -150,9 +141,9 @@ export const workData = [
     github: 'https://github.com/wagih-2001/E-commerce-Topico'
   },
   {
-    title: 'Logo Project – Landing Page Showcase',
+    title: 'Landing Page',
     description:
-      'Responsive landing page showcasing logos with advanced CSS styling.',
+      'Logo Project – Responsive landing page showcasing logos with advanced CSS styling.',
     bgImage: '/work-4.png',
     tools: [
       { name: 'HTML5', icon: assets.htmlIcon },
@@ -164,7 +155,6 @@ export const workData = [
   }
 ];
 
-// === Services Section ===
 export const serviceData = [
   {
     icon: assets.web_icon,
@@ -196,33 +186,30 @@ export const serviceData = [
   }
 ];
 
-// === Info List ===
 export const infoList = [
   {
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
-    title: 'Languages , Frameworks',
-    description:
-      'HTML5, CSS3, JavaScript (ES6+), React.js, Next.js, Tailwind CSS, TypeScript'
+    title: 'Frameworks & Libraries',
+    description: ' React.js, Next.js, Redux, Tailwind, TypeScript'
   },
   {
     icon: assets.edu_icon,
     iconDark: assets.edu_icon_dark,
     title: 'Education',
-    description: ' Computer Science  Zagazig University'
+    description: ' Computer Science – Zagazig University'
   },
   {
     icon: assets.project_icon,
     iconDark: assets.project_icon_dark,
     title: 'Projects',
-    description: 'Developed Many projects'
+    description: 'Learning Platform , E-commerce , Prayer Time App , Landing Page '
   }
 ];
 
-// === Tools Section ===
 export const toolsData = [
   assets.vscode,
   assets.git,
   assets.figma,
-  assets.vercelIcon,
+  assets.vercelIcon
 ];

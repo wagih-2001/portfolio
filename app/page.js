@@ -2,6 +2,7 @@
 import Navbar from './component/Navbar';
 import Header from './component/Header';
 import About from './component/About';
+import MySkills from './component/MySkills';
 import Services from './component/Services';
 import Project from './component/Project';
 import Contact from './component/Contact';
@@ -37,6 +38,7 @@ export default function Home() {
       <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
       <Header isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
       <About isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
+      <MySkills isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode}/>
       <Services isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
       <Project isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
       <Contact isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
